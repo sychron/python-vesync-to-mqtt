@@ -21,7 +21,7 @@ Might be expanded in the future to support more devices and features, feel free 
 
 ## Configuration
  
-You need to create an ini file with all needed credentials. 
+You need to create an ini file named `python-vesync-to-mqtt.ini` specifiing all needed credentials. 
 
 The ini file is excluded via .gitignore
 
