@@ -44,7 +44,7 @@ def processFanInfo():
 	for fan in fans:
 		change = False
 		fan.update()    	
-		basetopic="vesync/device/"+fan.device_name+"/"
+		basetopic="vesync/"+fan.device_name+"/"
 		if fanbuffer[fan.device_name]["level"] != fan.fan_level:
 			fanbuffer[fan.device_name]["level"] = fan.fan_level
 			client.publish(basetopic + "level", fan.fan_level)
