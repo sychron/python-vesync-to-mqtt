@@ -2,7 +2,7 @@
 python script to bridge between mqtt and vesync devices.
 
 This allows MQTT dashboard apps or Home Automation systems like iobroker to control vesync air purifiers via MQTT.
-Apr purifier status updates are detected and published retained via MQTT.
+Air purifier status updates are detected and published retained via MQTT.
 
 This is not a binding for iobroker, but a standalone script. 
 
